@@ -40,10 +40,10 @@ Download Ollama:
 
 Pull required models:
 
-
+```bash
 ollama pull gemma3:4b
 ollama pull mxbai-embed-large:latest
-
+```
 
 
 ## Step 1 — Create and Activate Python Virtual Environment
