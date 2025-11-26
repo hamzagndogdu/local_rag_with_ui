@@ -1,0 +1,9 @@
+pypdf
+langchain
+langchain_chroma
+langchain_ollama
+pydantic
+chromadb # Vector storage
+boto3
+fastapi[standard]
+uvicorn
