@@ -51,6 +51,10 @@ ollama pull mxbai-embed-large:latest
 python -m venv venv
 ```
 
+```bash
+./venv/Scripts/activate
+```
+
 Install dependencies:
 ```bash
 pip install -r requirements.txt
