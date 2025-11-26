@@ -90,3 +90,6 @@ npm install
 ```bash
 npm run dev
 ```
+
+
+[![Open UI](https://img.shields.io/badge/Open%20UI-localhost%3A3000-blue)](http://localhost:3000)
