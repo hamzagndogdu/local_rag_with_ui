@@ -49,10 +49,12 @@ Download Ollama:
 
 👉 https://ollama.com/download
 
-Pull required models:
+Pull required models (Or choose other models) :
 
 ```bash
 ollama pull gemma3:4b
+```
+```bash
 ollama pull mxbai-embed-large:latest
 ```
 
