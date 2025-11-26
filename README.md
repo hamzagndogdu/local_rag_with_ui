@@ -82,5 +82,7 @@ Inside rag_ui/:
 
 ```bash
 npm install
+```
+```bash
 npm run dev
 ```
