@@ -40,28 +40,28 @@ Download Ollama:
 
 Pull required models:
 
-```bash
+
 ollama pull gemma3:4b
 ollama pull mxbai-embed-large:latest
 
 
 
-Step 1 — Create and Activate Python Virtual Environment
+## Step 1 — Create and Activate Python Virtual Environment
 python -m venv venv
 
 Install dependencies:
 pip install -r requirements.txt
 
 
-Step 2 — Start the Ollama Model Server
+## Step 2 — Start the Ollama Model Server
 ollama serve
 
 
-Step 3 — Generate Embeddings (Vectorization)
+## Step 3 — Generate Embeddings (Vectorization)
 python vectorize.py
 
 
-Step 4 — Start the FastAPI Backend (RAG API)
+## Step 4 — Start the FastAPI Backend (RAG API)
 cd rag_backend
 
 Run FastAPI:
