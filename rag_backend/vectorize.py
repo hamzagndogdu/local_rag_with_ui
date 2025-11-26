@@ -1,10 +1,11 @@
-import argparse
 import os
 import shutil
+import argparse
 
-from langchain_community.document_loaders import PyPDFDirectoryLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+
 from langchain.schema.document import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import PyPDFDirectoryLoader
 
 
 from embedding_function import embedding_function
