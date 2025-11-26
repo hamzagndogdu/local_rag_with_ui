@@ -46,7 +46,7 @@ ollama pull mxbai-embed-large:latest
 ```
 
 
-## Step 1 — Create and Activate Python Virtual Environment
+## ✔ Step 1 — Create and Activate Python Virtual Environment
 ```bash
 python -m venv venv
 ```
@@ -56,17 +56,17 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## Step 2 — Start the Ollama Model Server In a New Terminal
+## ✔ Step 2 — Start the Ollama Model Server In a New Terminal
 ```bash
 ollama serve
 ```
 
-## Step 3 — Generate Embeddings (Vectorization)
+## ✔ Step 3 — Generate Embeddings (Vectorization)
 ```bash
 python vectorize.py
 ```
 
-## Step 4 — Start the FastAPI Backend (RAG API)
+## ✔ Step 4 — Start the FastAPI Backend (RAG API)
 
 ```bash
 cd rag_backend
@@ -77,7 +77,7 @@ Run FastAPI:
 uvicorn main:app --reload --port 8000
 ```
 
-Step 5 — Start the Next.js Chat UI (Frontend)
+## ✔ Step 5 — Start the Next.js Chat UI (Frontend)
 Inside rag_ui/:
 
 ```bash
