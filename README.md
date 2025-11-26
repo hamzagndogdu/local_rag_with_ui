@@ -11,8 +11,12 @@ This project is a fully local **Retrieval-Augmented Generation (RAG)** chatbot s
 The system allows you to upload PDF documents, embed them, store them in ChromaDB, and query them via a custom chat UI.
 
 ---
-<img src="images/Chat_UI.jpg" alt="Chat UI Screenshot" width="600">
+## Q_A
+<img src="images/Q_A.jpg" alt="Chat UI Screenshot" width="600">
 
+
+
+## RESOURCE (DnD_BasicRules_2018)
 <img src="images/D&D PDF.jpg" alt="PDF Source Example" width="600">
 
 
@@ -45,10 +49,12 @@ Download Ollama:
 
 👉 https://ollama.com/download
 
-Pull required models:
+Pull required models (Or choose other models) :
 
 ```bash
 ollama pull gemma3:4b
+```
+```bash
 ollama pull mxbai-embed-large:latest
 ```
 
