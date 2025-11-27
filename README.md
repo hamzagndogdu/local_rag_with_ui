@@ -105,4 +105,8 @@ npm run dev
 ```
 
 
+
 [![Open UI](https://img.shields.io/badge/Open%20UI-localhost%3A3000-blue)](http://localhost:3000)
+
+## Notes
+For better responses, make sure you give the game name. Also in terminal, you can display the retrieved resources from the backend terminal. Not in the ui.
