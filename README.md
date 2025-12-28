@@ -49,6 +49,12 @@ Download Ollama:
 
 👉 https://ollama.com/download
 
+For Linux:
+
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
 Pull required models (Or choose other models) :
 
 ```bash
